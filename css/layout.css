@@ -148,7 +148,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 ul#nav {
    min-height: 48px;
    width: auto;
-
+   display: none;
    /* center align the menu */
    text-align: center;
 }
@@ -180,6 +180,7 @@ ul#nav li a {
 
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #F06000; }
+div h6 { color: white;  }
 
 
 /* ------------------------------------------------------------------ */
@@ -1004,3 +1005,6 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a:hover { background-color: #0F9095; }
 
+.hidden-section, #about, #resume, #portfolio, #call-to-action, #testimonials {
+   display: none;
+}
